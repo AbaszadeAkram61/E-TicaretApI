@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace E_TicaretApI.Domain.Entities
 {
-    public class Product
+    public class Product:BaseEntity
     {
-        public int Id { get; set; }
+        
         public string Name { get; set; }
         public int Stock {  get; set; }
         public long Price {  get; set; }

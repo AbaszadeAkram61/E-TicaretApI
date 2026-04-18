@@ -8,6 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.26" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\E TicaretApI.Domain\E TicaretApI.Domain.csproj" />
   </ItemGroup>
 

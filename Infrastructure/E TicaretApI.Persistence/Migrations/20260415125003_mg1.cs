@@ -9,7 +9,7 @@ namespace E_TicaretApI.Persistence.Migrations
     /// 
     public partial class mg1 : Migration
     {
-        /// <inheritdoc />
+       
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(

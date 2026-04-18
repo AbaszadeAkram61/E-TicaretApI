@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace E_TicaretApI.Domain.Entities
 {
-    public class Customer:BaseEntity
+    public class BaseEntity
     {
-      
-        public string Name { get; set; }
-        public ICollection<Order> Orders { get; set; }
+        public int Id { get; set; }
     }
 }
