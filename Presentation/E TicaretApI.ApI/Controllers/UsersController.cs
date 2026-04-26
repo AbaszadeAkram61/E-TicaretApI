@@ -1,5 +1,5 @@
 ﻿using E_TicaretApI.Application.Features.Commands.Users.CreateUser;
-using E_TicaretApI.Application.Features.Commands.Users.GoogleLogin;
+
 using E_TicaretApI.Application.Features.Commands.Users.LoginUser;
 using MediatR;
 using Microsoft.AspNetCore.Http;
@@ -33,11 +33,6 @@ namespace E_TicaretApI.ApI.Controllers
             return Ok(response);
         }
 
-        [HttpPost("google-login")]
-        public async Task<IActionResult> GoogleLogin(GoogleLoginCommandRequest request)
-        {
-            GoogleLoginCommandResponse response=await  _mediator.Send(request);
-            return Ok(response);
-        }
+       
     }
 }
